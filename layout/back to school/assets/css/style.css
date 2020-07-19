@@ -5,11 +5,11 @@
 
 .primary-menu {
     height: 55px;   
-    line-height: 55px;
+    line-height: 50px;
 }
 
-.primary-menu .container {
-    width: 1080px;
+.container {
+    width: 970px;
     margin: auto;
 }
 
@@ -26,7 +26,7 @@
 .menu li {
     display: inline-block;
     text-transform: uppercase;
-    padding-left: 28px;
+    padding-left: 25px;
 }
 
 .menu ul li a {
@@ -50,3 +50,66 @@
     margin-top: 4px;
     margin-left: 13px;
 }
+
+.main {
+    height: calc(100vh - 55px);
+    background-color: #48b087;
+}
+
+.main .container {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+}
+
+
+
+.main-title {
+    padding-top: 120px;
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.41em;
+}
+
+.main-title span {
+    color: #19442a;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.main p {
+    margin-top: 15px;
+    width: 220px;
+    font-size: 12px;
+    color: white;
+    word-wrap: break-word;
+}
+
+.btn {
+    
+}
+
+.main .btn-shop {
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    color: #19442a;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.social-midia {
+    margin-bottom: 50px;
+    
+}
+
+.social-midia img {
+    margin-right: 15px;
+}
+
